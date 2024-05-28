@@ -60,7 +60,7 @@ section {
 
 .navbar a:hover,
 .navbar a.active {
-    color: var(--txt-color);
+    color: var(--main-color);
 }
 
 #menu-icon {
@@ -246,6 +246,10 @@ span{
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+}
+
+.Portfolio-box:hover {
+    box-shadow: 0 0 2rem var(--main-color);
 }
 
 .Portfolio-box img {
