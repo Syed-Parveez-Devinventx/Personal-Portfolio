@@ -36,3 +36,17 @@ window.onscroll = () => {
     menuIcon = classList.remove('fa-xmark');
     navbar.classList.remove('active');
 };
+
+/*================================= scroll revale =====================================*/
+
+ScrollReveal({
+    distance: '80px',
+    duration: 2000,
+    reset: 200,
+});
+
+ScrollReveal().reveal('.home-content, heading',{origin: 'top'});
+ScrollReveal().reveal('.home-img, .services-container,portfokio-box, contact form',{origin: 'button'});
+
+ScrollReveal().reveal('.home-contact h1, .about-img',{origin: 'left'});
+ScrollReveal().reveal('.home-content p, .about-content',{origin: 'right'});
