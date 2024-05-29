@@ -50,3 +50,13 @@ ScrollReveal().reveal('.home-img, .services-container,portfokio-box, contact for
 
 ScrollReveal().reveal('.home-contact h1, .about-img',{origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content',{origin: 'right'});
+
+/*================================= type js =====================================*/
+
+const typed = new Typed('.multiple-text', {
+    strings: ['Frontend Developer', 'Web Designer', 'Student :)'],
+    typeSpeed: 70,
+    backSpeed: 70,
+    loop: true,
+    backDelay: 1000,
+});
